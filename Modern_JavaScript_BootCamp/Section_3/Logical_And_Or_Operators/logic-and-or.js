@@ -15,9 +15,9 @@ if (temp <= 0 || temp >= 115) {
 let isGuestOneVegan = true;
 let isGuestTwoVegan = false;
 
-if (isGuestOneVegan === true && isGuestTwoVegan === true) {
+if (isGuestOneVegan && isGuestTwoVegan) {
     console.log("Here is the vegan menu")
-} else if (isGuestOneVegan === true || isGuestTwoVegan != false) {
+} else if (isGuestOneVegan || isGuestTwoVegan) {
     console.log("Here are some vegan options on the menu")
 } else {
     console.log("Here is the full menu")
