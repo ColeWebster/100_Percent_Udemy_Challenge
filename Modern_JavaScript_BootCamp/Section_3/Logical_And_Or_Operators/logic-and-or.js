@@ -11,3 +11,14 @@ if (temp >= 60 && temp <= 90) {
 if (temp <= 0 || temp >= 115) {
     console.log("It is dangerous to go outside")
 }
+
+let isGuestOneVegan = true;
+let isGuestTwoVegan = false;
+
+if (isGuestOneVegan === true && isGuestTwoVegan === true) {
+    console.log("Here is the vegan menu")
+} else if (isGuestOneVegan === true || isGuestTwoVegan != false) {
+    console.log("Here are some vegan options on the menu")
+} else {
+    console.log("Here is the full menu")
+}
